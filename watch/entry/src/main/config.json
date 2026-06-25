@@ -1,0 +1,41 @@
+{
+  "app": {
+    "bundleName": "com.example.batterywatchapp",
+    "vendor": "example",
+    "version": {
+      "code": 1,
+      "name": "1.0"
+    },
+    "apiVersion": {
+      "compatible": 6,
+      "target": 6,
+      "releaseType": "Release"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.example.batterywatchapp",
+    "name": ".MyApplication",
+    "deviceType": ["liteWearable"],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry"
+    },
+    "abilities": [
+      {
+        "name": ".MainAbility",
+        "label": "Заряд телефона",
+        "icon": "$media:icon",
+        "type": "page",
+        "launchType": "standard",
+        "visible": true
+      }
+    ],
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.DISTRIBUTED_DATASYNC"
+      }
+    ]
+  }
+}
