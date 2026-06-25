@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical"
+    ohos:background_element="#000000"
+    ohos:padding="24vp">
+
+    <Text
+        ohos:id="$+id:title_text"
+        ohos:height="wrap_content"
+        ohos:width="match_parent"
+        ohos:text="Заряд телефона"
+        ohos:text_size="24fp"
+        ohos:text_color="#FFFFFF"
+        ohos:text_alignment="center"
+        ohos:top_margin="20vp"/>
+
+    <Text
+        ohos:id="$+id:battery_percent"
+        ohos:height="wrap_content"
+        ohos:width="match_parent"
+        ohos:text="85%"
+        ohos:text_size="64fp"
+        ohos:text_color="#4CAF50"
+        ohos:text_alignment="center"
+        ohos:top_margin="16vp"
+        ohos:bottom_margin="8vp"/>
+
+    <Text
+        ohos:id="$+id:status_text"
+        ohos:height="wrap_content"
+        ohos:width="match_parent"
+        ohos:text="Заряжается"
+        ohos:text_size="20fp"
+        ohos:text_color="#AAAAAA"
+        ohos:text_alignment="center"
+        ohos:bottom_margin="16vp"/>
+
+    <ProgressBar
+        ohos:id="$+id:loading_indicator"
+        ohos:height="20vp"
+        ohos:width="20vp"
+        ohos:visibility="hide"
+        ohos:layout_alignment="center"/>
+
+    <Button
+        ohos:id="$+id:update_button"
+        ohos:height="48vp"
+        ohos:width="120vp"
+        ohos:text="Обновить"
+        ohos:text_size="18fp"
+        ohos:background_element="#2196F3"
+        ohos:text_color="#FFFFFF"
+        ohos:layout_alignment="center"
+        ohos:top_margin="16vp"/>
+
+    <Text
+        ohos:id="$+id:last_update"
+        ohos:height="wrap_content"
+        ohos:width="match_parent"
+        ohos:text="Обновлено только что"
+        ohos:text_size="14fp"
+        ohos:text_color="#777777"
+        ohos:text_alignment="center"
+        ohos:top_margin="8vp"/>
+</DirectionalLayout>
